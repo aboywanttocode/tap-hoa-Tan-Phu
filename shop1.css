@@ -105,3 +105,36 @@ footer {
   text-align: center;
   padding: 10px 0;
 }
+#cart {
+  padding: 20px;
+  background-color: #fff;
+  border-top: 2px solid #ddd;
+}
+
+#cartItems {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#totalPrice {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#clearCart {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#clearCart:hover {
+  background-color: #e60000;
+}
